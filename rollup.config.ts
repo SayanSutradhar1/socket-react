@@ -7,7 +7,7 @@ export default defineConfig({
     {
       dir: "dist",
       format: "es",
-      name: "react-socket",
+      name: "socket-react",
     },
   ],
   external: ["react", "react-dom","socket.io-client"],

@@ -1,6 +1,6 @@
 {
-  "name": "react-socket",
-  "version": "1.0.0",
+  "name": "socket-react",
+  "version": "1.0.1",
   "description": "A lightweight, optimized, and clean React wrapper around socket.io-client.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

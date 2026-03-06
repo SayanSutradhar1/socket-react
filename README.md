@@ -1,6 +1,6 @@
-# react-socket
+# socket-react
 
-`react-socket` is a lightweight, optimized, and clean React wrapper around `socket.io-client`. It provides an easy way to manage Socket.io connections in your React applications using context and hooks.
+`socket-react` is a lightweight, optimized, and clean React wrapper around `socket.io-client`. It provides an easy way to manage Socket.io connections in your React applications using context and hooks.
 
 ## Features
 
@@ -12,13 +12,13 @@
 ## Installation
 
 ```bash
-npm install react-socket socket.io-client
+npm install socket-react socket.io-client
 ```
 
 or
 
 ```bash
-yarn add react-socket socket.io-client
+yarn add socket-react socket.io-client
 ```
 
 ## Quick Start
@@ -29,7 +29,7 @@ Wrap your application with `SocketProvider` and use the `useSocket` hook in your
 
 ```tsx
 // App.tsx
-import { SocketProvider } from "react-socket";
+import { SocketProvider } from "socket-react";
 
 function App() {
   return (
@@ -44,7 +44,7 @@ function App() {
 
 ```tsx
 // MyComponent.tsx
-import { useSocket } from "react-socket";
+import { useSocket } from "socket-react";
 
 function MyComponent() {
   const { socket, isConnected } = useSocket();
