@@ -121,4 +121,4 @@ The `useSocket` hook provides access to the socket instance and its state.
 
 ## License
 
-ISC
+MIT
