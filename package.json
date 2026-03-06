@@ -1,0 +1,25 @@
+{
+  "name": "react-socket",
+  "version": "1.0.0",
+  "description": "A lightweight, optimized, and clean React wrapper around socket.io-client.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Sayan Sutradhar",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^7.0.0",
+    "@rollup/plugin-typescript": "^12.3.0",
+    "@types/react": "^19.2.14",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "rollup": "^4.59.0",
+    "socket.io-client": "^4.8.3",
+    "tslib": "^2.8.1"
+  }
+}
